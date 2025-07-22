@@ -4,10 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "run:dev": "nodemon index.js"
+    "run:dev": "nodemon index.js",
+    "start" :"node index.js"
   },
   "keywords": [],
   "author": "",
+  "engines": {
+    "node" : "22.12.0"
+  },
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
